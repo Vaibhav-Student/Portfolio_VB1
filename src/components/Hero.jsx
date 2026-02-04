@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import profileImg from '../assets/profile.jpg';
 
 const Hero = () => {
     const typedRef = useRef(null);
@@ -109,7 +110,7 @@ const Hero = () => {
                 <div className="hero-image">
                     <div className="image-wrapper">
                         <div className="image-border"></div>
-                        <img src="/profile.jpg" alt="Profile Photo" className="profile-img" />
+                        <img src={profileImg} alt="Profile Photo" className="profile-img" />
                     </div>
                     <div className="floating-icons">
                         <div className="float-icon java"><i className="fab fa-java"></i></div>

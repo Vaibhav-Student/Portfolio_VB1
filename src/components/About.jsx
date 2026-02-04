@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import profileImg from '../assets/profile.jpg';
 
 const About = () => {
     const sectionRef = useRef(null);
@@ -85,7 +86,7 @@ const About = () => {
                             <div className="profile-image-wrapper">
                                 <div className="liquid-image-frame">
                                     <div className="liquid-shine"></div>
-                                    <img src="/profile.jpg" alt="Vaibhav Beladiya" />
+                                    <img src={profileImg} alt="Vaibhav Beladiya" />
                                 </div>
                                 <div className="profile-badge">
                                     <span className="badge-pulse"></span>
