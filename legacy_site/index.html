@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Beladiya | MCA-AI Student</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">&lt;Portfolio/&gt;</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Vaibhav Beladiya</h1>
+                <h2 class="title-wrapper">
+                    <span class="static-text">I'm a </span>
+                    <span class="dynamic-text" id="typed-text"></span>
+                    <span class="cursor">|</span>
+                </h2>
+                <p class="tagline">Passionate MCA-AI Student | Building the Future with Code</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Hire Me</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <span>View Projects</span>
+                        <i class="fas fa-folder-open"></i>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/" target="_blank" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/" target="_blank" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="social-link" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="mailto:your.email@example.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <div class="image-border"></div>
+                    <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+                </div>
+                <div class="floating-icons">
+                    <div class="float-icon java"><i class="fab fa-java"></i></div>
+                    <div class="float-icon database"><i class="fas fa-database"></i></div>
+                    <div class="float-icon code"><i class="fas fa-code"></i></div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section - Liquid Glass -->
+    <section id="about" class="about">
+        <!-- Liquid Glass Background Elements -->
+        <div class="liquid-bg">
+            <div class="liquid-blob liquid-blob-1"></div>
+            <div class="liquid-blob liquid-blob-2"></div>
+            <div class="liquid-blob liquid-blob-3"></div>
+            <div class="liquid-wave"></div>
+        </div>
+
+        <div class="container">
+            <div class="about-header">
+                <div class="about-title-container">
+                    <div class="about-title-decoration"></div>
+                    <div class="about-title-wrapper">
+                        <span class="about-label">About</span>
+                        <div class="about-title-divider"></div>
+                        <h2 class="about-title">
+                            <span class="title-text">Me</span>
+                            <span class="title-glow"></span>
+                        </h2>
+                    </div>
+                    <div class="about-title-decoration"></div>
+                </div>
+                <p class="about-subtitle">
+                    <span class="subtitle-line"></span>
+                    <span class="subtitle-text">Passionate developer building the future with code</span>
+                    <span class="subtitle-line"></span>
+                </p>
+            </div>
+
+            <div class="about-layout">
+                <!-- Left Column: Profile Card -->
+                <div class="liquid-card profile-liquid-card">
+                    <div class="liquid-card-inner">
+                        <div class="liquid-card-glow"></div>
+                        <div class="profile-image-wrapper">
+                            <div class="liquid-image-frame">
+                                <div class="liquid-shine"></div>
+                                <img src="profile.jpg" alt="Vaibhav Beladiya">
+                            </div>
+                            <div class="profile-badge">
+                                <span class="badge-pulse"></span>
+                                <span>Open to Work</span>
+                            </div>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Vaibhav Beladiya</h3>
+                            <p class="profile-role">MCA-AI Student</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Center Column: Bio Card with Focus Areas & Buttons -->
+                <div class="liquid-card bio-liquid-card">
+                    <div class="liquid-card-inner">
+                        <div class="liquid-card-glow"></div>
+                        <div class="card-header-icon">
+                            <i class="fas fa-user-astronaut"></i>
+                        </div>
+                        <h3 class="bio-title">Who Am I?</h3>
+                        <div class="bio-content">
+                            <p>
+                                Hi, I'm <strong>Vaibhav</strong> — a passionate <span class="text-gradient">MCA-AI Student</span> 
+                                crafting digital experiences. I'm dedicated to exploring the frontiers of 
+                                <strong>Artificial Intelligence</strong> and <strong>Software Development</strong>.
+                            </p>
+                            <p>
+                                My journey is fueled by curiosity and a drive to build innovative solutions that solve 
+                                real-world problems. Specializing in <strong>Java</strong> and 
+                                <strong>Cloud Technologies</strong>, I create seamless digital experiences that make a difference.
+                            </p>
+                        </div>
+                        <div class="bio-footer">
+                            <div class="focus-inline">
+                                <span class="focus-label-inline"><i class="fas fa-bullseye"></i> Focus Areas</span>
+                                <div class="focus-tags-inline">
+                                    <span class="focus-tag-liquid"><i class="fab fa-java"></i><span>Java</span></span>
+                                    <span class="focus-tag-liquid"><i class="fas fa-brain"></i><span>AI/ML</span></span>
+                                    <span class="focus-tag-liquid"><i class="fas fa-database"></i><span>SQL</span></span>
+                                </div>
+                            </div>
+                            <div class="bio-actions">
+                                <a href="#contact" class="btn-liquid btn-liquid-primary">
+                                    <span>Hire Me</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <a href="resume.pdf" class="btn-liquid btn-liquid-secondary" download>
+                                    <i class="fas fa-file-download"></i>
+                                    <span>Download CV</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Stats Only -->
+                <div class="liquid-stats-column">
+                    <!-- Stats Card -->
+                    <div class="liquid-card stats-liquid-card">
+                        <div class="liquid-card-inner">
+                            <div class="liquid-card-glow"></div>
+                            <div class="stats-grid">
+                                <div class="stat-item-liquid">
+                                    <div class="stat-icon"><i class="fas fa-code"></i></div>
+                                    <span class="stat-number-liquid" data-count="2" data-suffix="+">0</span>
+                                    <span class="stat-label-liquid">Years Coding</span>
+                                </div>
+                                <div class="stat-divider-liquid"></div>
+                                <div class="stat-item-liquid">
+                                    <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
+                                    <span class="stat-number-liquid" data-count="10" data-suffix="+">0</span>
+                                    <span class="stat-label-liquid">Projects Done</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="about-header">
+                <div class="about-title-container">
+                    <div class="about-title-decoration"></div>
+                    <div class="about-title-wrapper">
+                        <span class="about-label">Skills</span>
+                        <div class="about-title-divider"></div>
+                        <h2 class="about-title">
+                            <span class="title-text">My Skills</span>
+                            <span class="title-glow"></span>
+                        </h2>
+                    </div>
+                    <div class="about-title-decoration"></div>
+                </div>
+                <p class="about-subtitle">
+                    <span class="subtitle-line"></span>
+                    <span class="subtitle-text">Technologies I work with</span>
+                    <span class="subtitle-line"></span>
+                </p>
+            </div>
+
+            <div class="skills-layout">
+                <div class="skills-intro">
+                    <div class="skills-highlight-card">
+                        <div class="highlight-header">
+                            <span class="highlight-kicker">Skill Focus</span>
+                            <h3>Building reliable, scalable software</h3>
+                            <p>Hands-on experience across backend, data, and cloud tooling with a focus on clean, maintainable systems.</p>
+                        </div>
+                        <div class="highlight-metrics">
+                            <div class="metric">
+                                <span class="metric-value">6</span>
+                                <span class="metric-label">Core Skills</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">8</span>
+                                <span class="metric-label">Tools</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-value">4</span>
+                                <span class="metric-label">Domains</span>
+                            </div>
+                        </div>
+                        <div class="highlight-stack">
+                            <span class="stack-chip">Backend</span>
+                            <span class="stack-chip">AI/ML</span>
+                            <span class="stack-chip">Databases</span>
+                            <span class="stack-chip">APIs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-panels">
+                    <div class="skills-panel skills-core">
+                        <div class="skills-panel-header">
+                            <h3>Core Stack</h3>
+                            <span class="skills-note">Experience level</span>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-row" data-aos="fade-up" data-aos-delay="100">
+                                <div class="skill-row-left">
+                                    <span class="skill-icon java-icon"><i class="fab fa-java"></i></span>
+                                    <div>
+                                        <h4>Java</h4>
+                                        <span class="skill-meta">Backend</span>
+                                    </div>
+                                </div>
+                                <div class="skill-row-right">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="90"></div>
+                                    </div>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-row" data-aos="fade-up" data-aos-delay="200">
+                                <div class="skill-row-left">
+                                    <span class="skill-icon dsa-icon"><i class="fas fa-project-diagram"></i></span>
+                                    <div>
+                                        <h4>DSA in Java</h4>
+                                        <span class="skill-meta">Problem Solving</span>
+                                    </div>
+                                </div>
+                                <div class="skill-row-right">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="80"></div>
+                                    </div>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-row" data-aos="fade-up" data-aos-delay="300">
+                                <div class="skill-row-left">
+                                    <span class="skill-icon sql-icon"><i class="fas fa-database"></i></span>
+                                    <div>
+                                        <h4>SQL</h4>
+                                        <span class="skill-meta">Databases</span>
+                                    </div>
+                                </div>
+                                <div class="skill-row-right">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="85"></div>
+                                    </div>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-row" data-aos="fade-up" data-aos-delay="400">
+                                <div class="skill-row-left">
+                                    <span class="skill-icon mysql-icon"><i class="fas fa-server"></i></span>
+                                    <div>
+                                        <h4>MySQL</h4>
+                                        <span class="skill-meta">RDBMS</span>
+                                    </div>
+                                </div>
+                                <div class="skill-row-right">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="85"></div>
+                                    </div>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-row" data-aos="fade-up" data-aos-delay="500">
+                                <div class="skill-row-left">
+                                    <span class="skill-icon php-icon"><i class="fab fa-php"></i></span>
+                                    <div>
+                                        <h4>PHP</h4>
+                                        <span class="skill-meta">Web</span>
+                                    </div>
+                                </div>
+                                <div class="skill-row-right">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="75"></div>
+                                    </div>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                            </div>
+
+                            <div class="skill-row" data-aos="fade-up" data-aos-delay="600">
+                                <div class="skill-row-left">
+                                    <span class="skill-icon mongodb-icon"><i class="fas fa-leaf"></i></span>
+                                    <div>
+                                        <h4>MongoDB</h4>
+                                        <span class="skill-meta">NoSQL</span>
+                                    </div>
+                                </div>
+                                <div class="skill-row-right">
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="70"></div>
+                                    </div>
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-panel skills-tools">
+                        <div class="skills-panel-header">
+                            <h3>Tools & Platforms</h3>
+                            <span class="skills-note">Daily workflow</span>
+                        </div>
+                        <div class="tools-pill-grid">
+                            <span class="tool-pill"><i class="fab fa-git-alt"></i>Git</span>
+                            <span class="tool-pill"><i class="fab fa-github"></i>GitHub</span>
+                            <span class="tool-pill"><i class="fas fa-terminal"></i>VS Code</span>
+                            <span class="tool-pill"><i class="fab fa-android"></i>Android Studio</span>
+                            <span class="tool-pill"><i class="fas fa-fire"></i>Firebase</span>
+                            <span class="tool-pill"><i class="fab fa-linux"></i>Linux</span>
+                            <span class="tool-pill"><i class="fas fa-cloud"></i>REST APIs</span>
+                            <span class="tool-pill"><i class="fab fa-figma"></i>Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="about-header">
+                <div class="about-title-container">
+                    <div class="about-title-decoration"></div>
+                    <div class="about-title-wrapper">
+                        <span class="about-label">Projects</span>
+                        <div class="about-title-divider"></div>
+                        <h2 class="about-title">
+                            <span class="title-text">My Projects</span>
+                            <span class="title-glow"></span>
+                        </h2>
+                    </div>
+                    <div class="about-title-decoration"></div>
+                </div>
+                <p class="about-subtitle">
+                    <span class="subtitle-line"></span>
+                    <span class="subtitle-text">Some things I've built</span>
+                    <span class="subtitle-line"></span>
+                </p>
+            </div>
+
+            <div class="projects-shell">
+                <aside class="projects-side">
+                    <div class="spotlight-card">
+                        <span class="spotlight-label">Featured Project</span>
+                        <h3 class="spotlight-title">DSA Visualizer</h3>
+                        <p class="spotlight-text">
+                            An interactive tool that makes data structures and algorithms feel intuitive with step-by-step visuals.
+                        </p>
+                        <div class="spotlight-actions">
+                            <a href="#" class="btn btn-primary">
+                                <span>View Demo</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#" class="btn btn-secondary">
+                                <span>View Code</span>
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="spotlight-stack">
+                            <span>Java</span>
+                            <span>JavaFX</span>
+                            <span>Algorithms</span>
+                        </div>
+                    </div>
+
+                    <div class="projects-metrics">
+                        <div class="metric-card">
+                            <span class="metric-number">4</span>
+                            <span class="metric-label">Projects</span>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-number">2</span>
+                            <span class="metric-label">Domains</span>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-number">6</span>
+                            <span class="metric-label">Tech Stacks</span>
+                        </div>
+                    </div>
+                </aside>
+
+                <div class="projects-main">
+                    <div class="project-filters">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="java">Java</button>
+                        <button class="filter-btn" data-filter="web">Web</button>
+                    </div>
+
+                    <div class="projects-grid">
+                        <!-- Project 1 -->
+                        <div class="project-card" data-category="java">
+                            <div class="project-glass">
+                                <div class="project-header">
+                                    <div class="project-icon">
+                                        <i class="fas fa-tasks"></i>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="#" class="project-link" title="View Demo">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                        <a href="#" class="project-link" title="View Code">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project-body">
+                                    <h3 class="project-title">Task Management System</h3>
+                                    <p>A comprehensive task management application with user authentication and real-time updates.</p>
+                                </div>
+                                <div class="project-tech">
+                                    <span>Java</span>
+                                    <span>MySQL</span>
+                                    <span>JDBC</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="project-card" data-category="web">
+                            <div class="project-glass">
+                                <div class="project-header">
+                                    <div class="project-icon">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="#" class="project-link" title="View Demo">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                        <a href="#" class="project-link" title="View Code">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project-body">
+                                    <h3 class="project-title">Student Portal</h3>
+                                    <p>A complete student management system with admin dashboard and student interface.</p>
+                                </div>
+                                <div class="project-tech">
+                                    <span>PHP</span>
+                                    <span>MySQL</span>
+                                    <span>Bootstrap</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="project-card" data-category="java">
+                            <div class="project-glass">
+                                <div class="project-header">
+                                    <div class="project-icon">
+                                        <i class="fas fa-chart-line"></i>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="#" class="project-link" title="View Demo">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                        <a href="#" class="project-link" title="View Code">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project-body">
+                                    <h3 class="project-title">DSA Visualizer</h3>
+                                    <p>An interactive tool to visualize data structures and algorithms step by step.</p>
+                                </div>
+                                <div class="project-tech">
+                                    <span>Java</span>
+                                    <span>JavaFX</span>
+                                    <span>Algorithms</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="project-card" data-category="web">
+                            <div class="project-glass">
+                                <div class="project-header">
+                                    <div class="project-icon">
+                                        <i class="fas fa-blog"></i>
+                                    </div>
+                                    <div class="project-links">
+                                        <a href="#" class="project-link" title="View Demo">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                        <a href="#" class="project-link" title="View Code">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project-body">
+                                    <h3 class="project-title">Blog Platform</h3>
+                                    <p>A dynamic blog platform with CRUD operations and MongoDB as database.</p>
+                                </div>
+                                <div class="project-tech">
+                                    <span>PHP</span>
+                                    <span>MongoDB</span>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="about-header">
+                <div class="about-title-container">
+                    <div class="about-title-decoration"></div>
+                    <div class="about-title-wrapper">
+                        <span class="about-label">Education</span>
+                        <div class="about-title-divider"></div>
+                        <h2 class="about-title">
+                            <span class="title-text">Education</span>
+                            <span class="title-glow"></span>
+                        </h2>
+                    </div>
+                    <div class="about-title-decoration"></div>
+                </div>
+                <p class="about-subtitle">
+                    <span class="subtitle-line"></span>
+                    <span class="subtitle-text">My academic journey</span>
+                    <span class="subtitle-line"></span>
+                </p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            2024 - Present
+                        </div>
+                        <h3>Master of Computer Applications (AI)</h3>
+                        <h4>Your University Name</h4>
+                        <p>Specializing in Artificial Intelligence and Machine Learning. Currently pursuing advanced
+                            coursework in AI/ML, Deep Learning, and Data Science.</p>
+                        <div class="timeline-tags">
+                            <span>AI/ML</span>
+                            <span>Deep Learning</span>
+                            <span>Data Science</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            2021 - 2024
+                        </div>
+                        <h3>Bachelor of Computer Applications</h3>
+                        <h4>Your College Name</h4>
+                        <p>Completed undergraduate studies with focus on programming fundamentals, database management,
+                            and software development.</p>
+                        <div class="timeline-tags">
+                            <span>Java</span>
+                            <span>DBMS</span>
+                            <span>Web Development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i>
+                            2019 - 2021
+                        </div>
+                        <h3>Higher Secondary Education</h3>
+                        <h4>Your School Name</h4>
+                        <p>Completed 12th standard with Science stream (PCM/Commerce). Built strong foundation in
+                            mathematics and logical thinking.</p>
+                        <div class="timeline-tags">
+                            <span>Science</span>
+                            <span>Mathematics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="certifications">
+                <h3 class="cert-title">
+                    <i class="fas fa-certificate"></i>
+                    Certifications
+                </h3>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <h4>Java Programming</h4>
+                        <p>Oracle / HackerRank</p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h4>SQL & Database</h4>
+                        <p>Coursera / Udemy</p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4>DSA Fundamentals</h4>
+                        <p>GeeksforGeeks / LeetCode</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="about-header">
+                <div class="about-title-container">
+                    <div class="about-title-decoration"></div>
+                    <div class="about-title-wrapper">
+                        <span class="about-label">Contact</span>
+                        <div class="about-title-divider"></div>
+                        <h2 class="about-title">
+                            <span class="title-text">Contact Me</span>
+                            <span class="title-glow"></span>
+                        </h2>
+                    </div>
+                    <div class="about-title-decoration"></div>
+                </div>
+                <p class="about-subtitle">
+                    <span class="subtitle-line"></span>
+                    <span class="subtitle-text">Let's work together</span>
+                    <span class="subtitle-line"></span>
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi,
+                        I'll try my best to get back to you!</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:your.email@example.com">your.email@example.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <a href="tel:+919876543210">+91 98765 43210</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <span>Your City, State, India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <a href="https://github.com/" target="_blank" class="social-btn">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/" target="_blank" class="social-btn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="social-btn">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/" target="_blank" class="social-btn">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                        <i class="fas fa-user"></i>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Subject</label>
+                        <i class="fas fa-pen"></i>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>&lt;Portfolio/&gt;</span>
+            </div>
+            <p class="footer-text">Designed & Built with <i class="fas fa-heart"></i> by Your Name</p>
+            <p class="copyright">&copy; 2026 All Rights Reserved</p>
+        </div>
+        <button id="backToTop" class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
