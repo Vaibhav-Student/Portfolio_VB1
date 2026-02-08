@@ -136,13 +136,13 @@ const Education = () => {
             title: "Vadodara Hackathon 6.0",
             provider: "Parul Innovation & Entrepreneurship Research Centre",
             icon: "fas fa-trophy",
-            downloadLink: "/Certificates/Vadodara_Hackathon_6.0.pdf"
+            downloadLink: "Certificates/Vadodara_Hackathon_6.0.pdf"
         },
         {
             title: "Agenti AI Saksham",
             provider: "Capable",
             icon: "fas fa-certificate",
-            downloadLink: "/Certificates/Agentic_AI__Saksham_Python_Programming_for_Agentic_AI.pdf"
+            downloadLink: "Certificates/Agentic_AI__Saksham_Python_Programming_for_Agentic_AI.pdf"
         }
     ];
 
