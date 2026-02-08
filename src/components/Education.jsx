@@ -132,17 +132,17 @@ const Education = () => {
     ];
 
     const certifications = [
-        { 
-            title: "Vadodara Hackathon 6.0", 
-            provider: "Parul Innovation & Entrepreneurship Research Centre", 
+        {
+            title: "Vadodara Hackathon 6.0",
+            provider: "Parul Innovation & Entrepreneurship Research Centre",
             icon: "fas fa-trophy",
-            downloadLink: "/Certificates/vadodara-hackathon.pdf"
+            downloadLink: "/Certificates/Vadodara_Hackathon_6.0.pdf"
         },
-        { 
-            title: "Agenti AI Saksham", 
-            provider: "Capable", 
+        {
+            title: "Agenti AI Saksham",
+            provider: "Capable",
             icon: "fas fa-certificate",
-            downloadLink: "/Certificates/agenti-ai-saksham.pdf"
+            downloadLink: "/Certificates/Agentic_AI__Saksham_Python_Programming_for_Agentic_AI.pdf"
         }
     ];
 
